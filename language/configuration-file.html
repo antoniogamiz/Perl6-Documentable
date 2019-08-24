@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Configuration file</title>
+        <meta charset="UTF-8" />
+        <style>
+        kbd { font-family: "Droid Sans Mono", "Luxi Mono", "Inconsolata", monospace }
+        samp { font-family: "Terminus", "Courier", "Lucida Console", monospace }
+        u { text-decoration: none }
+        .nested {
+            margin-left: 3em;
+        }
+        aside, u { opacity: 0.7 }
+        a[id^="fn-"]:target { background: #ff0 }
+        </style>
+        
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" href="/Perl6-Documentable/favicon.ico" type="image/x-icon" />
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="/Perl6-Documentable/css/app.css?v=7"
+  media="screen"
+  title="default"
+/>
+<noscript>
+  <style>
+    #search {
+      visibility: hidden;
+    }
+  </style>
+</noscript>
+
+    </head>
+    <body class="pod">
+    <div id="___top"></div>
+    <div id="header" class="pretty-box green">
+  <a href="/Perl6-Documentable"
+    ><img
+      src="/Perl6-Documentable/images/Camelia.svg"
+      alt="»ö«"
+      id="logo"
+      width="62"
+      height="48"
+    />&nbsp;Perl6::Documentable</a
+  >
+  <div id="search" class="ui-widget">
+    <div class="green">
+      <input
+        placeholder="Loading..."
+        id="query"
+        accesskey="f"
+        title="Enter term to search for (hit Esc to focus)"
+      />
+    </div>
+    <p id="not-found-message">
+      Not in Index (<a href="" id="try-web-search">try site search</a>)
+    </p>
+  </div>
+  <div class="menu">
+    <div class="menu-items dark-green"><a class='menu-item darker-green' href='https://perl6.org'><strong>Perl&nbsp;6 homepage</strong></a>  <a class="menu-item selected darker-green" href="/Perl6-Documentable/language.html"> Language </a> <a class="menu-item " href="/Perl6-Documentable/type.html"> Types </a> <a class="menu-item " href="/Perl6-Documentable/routine.html"> Routines </a></div>
+  </div>
+</div>
+<div id="content" class="pretty-box yellow CONTENT_CLASS">
+  
+      <div align="right">
+        <button title="Edit this page"  class="pencil" onclick="location='https://github.com/antoniogamiz/Perl6-Documentable/tree/master/docs/language/configuration-file'">
+        <svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs></defs>
+    <g id="Octicons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pencil" fill="#000000">
+            <path d="M0,12 L0,15 L3,15 L11,7 L8,4 L0,12 L0,12 Z M3,14 L1,14 L1,12 L2,12 L2,13 L3,13 L3,14 L3,14 Z M13.3,4.7 L12,6 L9,3 L10.3,1.7 C10.69,1.31 11.32,1.31 11.71,1.7 L13.3,3.29 C13.69,3.68 13.69,4.31 13.3,4.7 L13.3,4.7 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
+
+        </button>
+      </div>
+
+    <h1 class='title'>Configuration file</h1>
+    <p class='subtitle'>How to configure Perl6::Documentable</p>
+    <nav class="indexgroup">
+<table id="TOC">
+<caption><h2 id="TOC_Title">Table of Contents</h2></caption>
+  <tr class="toc-level-2"><td class="toc-number">0.1</td><td class="toc-text"><a href="#Basics">Basics</a></td></tr>
+              <tr class="toc-level-2"><td class="toc-number">0.2</td><td class="toc-text"><a href="#kinds_entry"><code class="pod-code-inline">kinds</code> entry</a></td></tr>
+                                           <tr class="toc-level-2"><td class="toc-number">0.3</td><td class="toc-text"><a href="#Additional_entries">Additional entries</a></td></tr>
+                                      
+</table>
+</nav>
+
+    <div class="pod-body">
+    <h2 id="Basics"><a class="u" href="#___top" title="go to top of document">Basics</a></h2>
+<p><code>Perl6::Documentable</code> uses a JSON file to read the custom configuration. You have three different options to specify it:</p>
+<ul><li><p>Creates a file called <code>config.json</code> in the same directory where <code>Perl6::Documentable</code> will be executed.</p>
+</li>
+<li><p>Provide a custom path to a JSON file with the <code>--conf</code> option.</p>
+</li>
+<li><p>Do nothing. In that case, the <a href="https://github.com/antoniogamiz/Perl6-Documentable/blob/master/resources/config.json">default configuration file</a> will be used.</p>
+</li>
+</ul>
+<h2 id="kinds_entry"><a class="u" href="#___top" title="go to top of document"><code>kinds</code> entry</a></h2>
+<p>This entry follow the format:</p>
+<pre class="editor editor-colors"><div class="line"><span class="source perl6fe"><span class="string quoted double perl6fe"><span class="punctuation definition string begin perl6fe"><span>&quot;</span></span><span>kinds</span><span class="punctuation definition string end perl6fe"><span>&quot;</span></span></span><span class="keyword operator generic perl6fe"><span>:</span></span><span>&nbsp;[</span></span></div><div class="line"><span class="source perl6fe"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator multi-symbol perl6fe"><span>...</span></span></span></div><div class="line"><span class="source perl6fe"><span>]</span></span></div></pre><p>Where each one of the elements is written as:</p>
+<pre class="editor editor-colors"><div class="line"><span class="source perl6fe"><span class="meta block perl6fe"><span class="punctuation definition block perl6fe"><span>{</span></span></span></span></div><div class="line"><span class="source perl6fe"><span class="meta block perl6fe"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="string quoted double perl6fe"><span class="punctuation definition string begin perl6fe"><span>&quot;</span></span><span>kind</span><span class="punctuation definition string end perl6fe"><span>&quot;</span></span></span><span class="keyword operator generic perl6fe"><span>:</span></span><span>&nbsp;</span><span class="string quoted double perl6fe"><span class="punctuation definition string begin perl6fe"><span>&quot;</span></span><span>a&nbsp;kind&nbsp;name&nbsp;(see&nbsp;Kind)</span><span class="punctuation definition string end perl6fe"><span>&quot;</span></span></span><span>,</span></span></span></div><div class="line"><span class="source perl6fe"><span class="meta block perl6fe"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="string quoted double perl6fe"><span class="punctuation definition string begin perl6fe"><span>&quot;</span></span><span>display-text</span><span class="punctuation definition string end perl6fe"><span>&quot;</span></span></span><span class="keyword operator generic perl6fe"><span>:</span></span><span>&nbsp;</span><span class="string quoted double perl6fe"><span class="punctuation definition string begin perl6fe"><span>&quot;</span></span><span>text&nbsp;to&nbsp;be&nbsp;displayed&nbsp;in&nbsp;the&nbsp;menu&nbsp;buttom</span><span class="punctuation definition string end perl6fe"><span>&quot;</span></span></span><span>,</span></span></span></div><div class="line"><span class="source perl6fe"><span class="meta block perl6fe"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="string quoted double perl6fe"><span class="punctuation definition string begin perl6fe"><span>&quot;</span></span><span>sort</span><span class="punctuation definition string end perl6fe"><span>&quot;</span></span></span><span class="keyword operator generic perl6fe"><span>:</span></span><span>&nbsp;</span><span class="constant numeric perl6fe"><span>1</span></span><span>,</span></span></span></div><div class="line"><span class="source perl6fe"><span class="meta block perl6fe"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="string quoted double perl6fe"><span class="punctuation definition string begin perl6fe"><span>&quot;</span></span><span>categories</span><span class="punctuation definition string end perl6fe"><span>&quot;</span></span></span><span class="keyword operator generic perl6fe"><span>:</span></span><span>&nbsp;[</span></span></span></div><div class="line"><span class="source perl6fe"><span class="meta block perl6fe"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="string quoted double perl6fe"><span class="punctuation definition string begin perl6fe"><span>&quot;</span></span><span>name</span><span class="punctuation definition string end perl6fe"><span>&quot;</span></span></span><span class="keyword operator generic perl6fe"><span>:</span></span><span>&nbsp;</span><span class="string quoted double perl6fe"><span class="punctuation definition string begin perl6fe"><span>&quot;</span></span><span>sort&nbsp;name&nbsp;to&nbsp;be&nbsp;used&nbsp;by&nbsp;Perl6::Documentable&nbsp;and&nbsp;link</span><span class="punctuation definition string end perl6fe"><span>&quot;</span></span></span><span>,</span></span></span></div><div class="line"><span class="source perl6fe"><span class="meta block perl6fe"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="string quoted double perl6fe"><span class="punctuation definition string begin perl6fe"><span>&quot;</span></span><span>display-text</span><span class="punctuation definition string end perl6fe"><span>&quot;</span></span></span><span class="keyword operator generic perl6fe"><span>:</span></span><span>&nbsp;</span><span class="string quoted double perl6fe"><span class="punctuation definition string begin perl6fe"><span>&quot;</span></span><span>text&nbsp;to&nbsp;be&nbsp;displayed&nbsp;in&nbsp;the&nbsp;menu&nbsp;buttom</span><span class="punctuation definition string end perl6fe"><span>&quot;</span></span></span></span></span></div><div class="line"><span class="source perl6fe"><span class="meta block perl6fe"><span>&nbsp;&nbsp;&nbsp;&nbsp;]</span></span></span></div><div class="line"><span class="source perl6fe"><span class="meta block perl6fe"><span class="punctuation definition block perl6fe"><span>}</span></span></span></span></div></pre><ul><li><p>The value of <code>kind</code> must be the stringification of one element of <a href="/Perl6-Documentable/type/Kind">Kind</a>.</p>
+</li>
+<li><p>The values of <code>name</code> specified in <code>categories</code> has to be the same used in the metadata (see <a href="/Perl6-Documentable/language/document-format">document-format</a>).</p>
+</li>
+<li><p><code>sort</code> option is only available for <code>Kind::Language</code>, to sort the documents using the categories in one column.</p>
+</li>
+</ul>
+<h2 id="Additional_entries"><a class="u" href="#___top" title="go to top of document">Additional entries</a></h2>
+<pre class="editor editor-colors"><div class="line"><span class="source perl6fe"><span class="meta block perl6fe"><span class="punctuation definition block perl6fe"><span>{</span></span></span></span></div><div class="line"><span class="source perl6fe"><span class="meta block perl6fe"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="string quoted double perl6fe"><span class="punctuation definition string begin perl6fe"><span>&quot;</span></span><span>title-page</span><span class="punctuation definition string end perl6fe"><span>&quot;</span></span></span><span class="keyword operator generic perl6fe"><span>:</span></span><span>&nbsp;</span><span class="string quoted double perl6fe"><span class="punctuation definition string begin perl6fe"><span>&quot;</span></span><span>this&nbsp;string&nbsp;will&nbsp;appear&nbsp;in&nbsp;the&nbsp;tab</span><span class="punctuation definition string end perl6fe"><span>&quot;</span></span></span><span>,</span></span></span></div><div class="line"><span class="source perl6fe"><span class="meta block perl6fe"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="string quoted double perl6fe"><span class="punctuation definition string begin perl6fe"><span>&quot;</span></span><span>pod-root-path</span><span class="punctuation definition string end perl6fe"><span>&quot;</span></span></span><span class="keyword operator generic perl6fe"><span>:</span></span><span>&nbsp;</span><span class="string quoted double perl6fe"><span class="punctuation definition string begin perl6fe"><span>&quot;</span></span><span>link&nbsp;to&nbsp;the&nbsp;documentation&nbsp;dir</span><span class="punctuation definition string end perl6fe"><span>&quot;</span></span></span><span>,</span></span></span></div><div class="line"><span class="source perl6fe"><span class="meta block perl6fe"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="string quoted double perl6fe"><span class="punctuation definition string begin perl6fe"><span>&quot;</span></span><span>url-prefix</span><span class="punctuation definition string end perl6fe"><span>&quot;</span></span></span><span class="keyword operator generic perl6fe"><span>:</span></span><span>&nbsp;</span><span class="string quoted double perl6fe"><span class="punctuation definition string begin perl6fe"><span>&quot;</span></span><span>some&nbsp;string</span><span class="punctuation definition string end perl6fe"><span>&quot;</span></span></span></span></span></div><div class="line"><span class="source perl6fe"><span class="meta block perl6fe"><span class="punctuation definition block perl6fe"><span>}</span></span></span></span></div></pre><ul><li><p><code>pod-root-path</code>: Base link of the directory containing the documentation. It will be used to enable the edit button at the beginning of evey page.</p>
+<p>For instance: <code>&quot;pod-root-path&quot;: &quot;https://github.com/antoniogamiz/Perl6-Documentable/tree/master/docs&quot;,</code>.</p>
+</li>
+<li><p><code>url-prefix</code>: This entry is very important if you are going to deploy your site to <code>gh-pages</code>. You may have realised that all URLs are relative to <code>/</code>. So, if you deploy the <code>html</code> directory to your <code>gh-pages</code> branch, none of your links will work because they will be pointing to the root of your <code>.io</code> domain. This happens because your repository page url is the concatenation of your <code>.io</code> domain with the name of the repository.</p>
+<p>To avoid this problems, you can specify the name of your repo as the value of <code>url-prefix</code> (without &quot;/&quot;). This string will be added to the beginning of every url generated by <code>Perl6::Documentable</code>. Take a look at the <a href="https://github.com/antoniogamiz/Perl6-Documentable/blob/docs-assets/config.json">configuration file</a> used by the <code>Perl6::Documentable</code> documentation to see an example.</p>
+</li>
+</ul>
+
+    </div>
+    
+    </div>
+<footer class="pretty-box yellow">
+  <p>
+    The sources at <a href='https://github.com/antoniogamiz/Perl6-Documentable'>Perl6::Documentable</a>. Generated on 2019-08-24T07:48:40Z
+  </p>
+  <p>
+    This documentation is provided under the terms of the
+    <a href="https://raw.githubusercontent.com/perl6/doc/master/LICENSE">Artistic License 2.0</a>.
+    The Camelia image is <a href="https://raw.githubusercontent.com/perl6/mu/master/misc/camelia.txt">copyright © 2009
+      by Larry Wall.</a>
+    <!-- CREDITS -->
+    <!--External Link Image by Zapyon, CCA-SA 4.0. Derived from Wikimedia Foundation https://commons.wikimedia.org/wiki/File:External-link-04-bold-12x12.svg -->
+  </p>
+</footer>
+
+<script type="text/javascript" src="/Perl6-Documentable/js/app.js?v=1"></script>
+<script type="text/javascript" src="/Perl6-Documentable/js/search.js?v=3"></script>
+    </body>
+</html>

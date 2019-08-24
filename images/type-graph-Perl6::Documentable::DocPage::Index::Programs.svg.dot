@@ -1,0 +1,13 @@
+digraph "perl6-type-graph" {
+    rankdir=BT;
+    splines=polyline;
+    overlap=false; 
+    // Types
+    "Perl6::Documentable::DocPage::Index::Programs" [color="#000000", fontcolor="#000000", href="/type/Perl6::Documentable::DocPage::Index::Programs", fontname="FreeSans"];
+    "Perl6::Documentable::DocPage" [color="#6666FF", fontcolor="#6666FF", href="/type/Perl6::Documentable::DocPage", fontname="FreeSans"];
+
+    // Superclasses
+    "Perl6::Documentable::DocPage::Index::Programs" -> "Perl6::Documentable::DocPage" [color="#000000"];
+
+    // Roles
+}
