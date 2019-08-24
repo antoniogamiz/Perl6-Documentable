@@ -115,261 +115,261 @@ $(function(){
                   category: "Signature",
                   value: ";; (long name)",
                   url: "/type/Signature#index-entry-Long_Names"
-              }, { category: "class", value: "Perl6::Documentable", url: "/type/Perl6::Documentable" }
+              }, { category: "role", value: "Perl6::Documentable::DocPage", url: "/Perl6-Documentable/type/Perl6::Documentable::DocPage" }
 ,
-{ category: "enum", value: "Kind", url: "/type/Kind" }
+{ category: "class", value: "Perl6::Documentable::DocPage::Primary::Type", url: "/Perl6-Documentable/type/Perl6::Documentable::DocPage::Primary::Type" }
 ,
-{ category: "role", value: "Perl6::Documentable::DocPage", url: "/type/Perl6::Documentable::DocPage" }
+{ category: "class", value: "Perl6::Documentable::DocPage::Primary::Language", url: "/Perl6-Documentable/type/Perl6::Documentable::DocPage::Primary::Language" }
 ,
-{ category: "class", value: "Perl6::Documentable::DocPage::Primary::Type", url: "/type/Perl6::Documentable::DocPage::Primary::Type" }
+{ category: "class", value: "Perl6::Documentable::DocPage::Primary::Programs", url: "/Perl6-Documentable/type/Perl6::Documentable::DocPage::Primary::Programs" }
 ,
-{ category: "class", value: "Perl6::Documentable::DocPage::Primary::Language", url: "/type/Perl6::Documentable::DocPage::Primary::Language" }
+{ category: "class", value: "Perl6::Documentable::DocPage::Secondary", url: "/Perl6-Documentable/type/Perl6::Documentable::DocPage::Secondary" }
 ,
-{ category: "class", value: "Perl6::Documentable::DocPage::Primary::Programs", url: "/type/Perl6::Documentable::DocPage::Primary::Programs" }
+{ category: "class", value: "Perl6::Documentable::DocPage::Index", url: "/Perl6-Documentable/type/Perl6::Documentable::DocPage::Index" }
 ,
-{ category: "class", value: "Perl6::Documentable::DocPage::Secondary", url: "/type/Perl6::Documentable::DocPage::Secondary" }
+{ category: "class", value: "Perl6::Documentable::DocPage::Index::Type", url: "/Perl6-Documentable/type/Perl6::Documentable::DocPage::Index::Type" }
 ,
-{ category: "class", value: "Perl6::Documentable::DocPage::Index", url: "/type/Perl6::Documentable::DocPage::Index" }
+{ category: "class", value: "Perl6::Documentable::DocPage::Index::Language", url: "/Perl6-Documentable/type/Perl6::Documentable::DocPage::Index::Language" }
 ,
-{ category: "class", value: "Perl6::Documentable::DocPage::Index::Type", url: "/type/Perl6::Documentable::DocPage::Index::Type" }
+{ category: "class", value: "Perl6::Documentable::DocPage::SubIndex::Type", url: "/Perl6-Documentable/type/Perl6::Documentable::DocPage::SubIndex::Type" }
 ,
-{ category: "class", value: "Perl6::Documentable::DocPage::Index::Language", url: "/type/Perl6::Documentable::DocPage::Index::Language" }
+{ category: "class", value: "Perl6::Documentable::DocPage::Index::Routine", url: "/Perl6-Documentable/type/Perl6::Documentable::DocPage::Index::Routine" }
 ,
-{ category: "class", value: "Perl6::Documentable::DocPage::SubIndex::Type", url: "/type/Perl6::Documentable::DocPage::SubIndex::Type" }
+{ category: "class", value: "Perl6::Documentable::DocPage::SubIndex::Routine", url: "/Perl6-Documentable/type/Perl6::Documentable::DocPage::SubIndex::Routine" }
 ,
-{ category: "class", value: "Perl6::Documentable::DocPage::Index::Routine", url: "/type/Perl6::Documentable::DocPage::Index::Routine" }
+{ category: "class", value: "Perl6::Documentable::DocPage::Index::Programs", url: "/Perl6-Documentable/type/Perl6::Documentable::DocPage::Index::Programs" }
 ,
-{ category: "class", value: "Perl6::Documentable::DocPage::SubIndex::Routine", url: "/type/Perl6::Documentable::DocPage::SubIndex::Routine" }
+{ category: "class", value: "Perl6::Documentable", url: "/Perl6-Documentable/type/Perl6::Documentable" }
 ,
-{ category: "class", value: "Perl6::Documentable::DocPage::Index::Programs", url: "/type/Perl6::Documentable::DocPage::Index::Programs" }
+{ category: "enum", value: "Kind", url: "/Perl6-Documentable/type/Kind" }
 ,
-{ category: "class", value: "Perl6::Documentable::DocPage::Factory", url: "/type/Perl6::Documentable::DocPage::Factory" }
+{ category: "class", value: "Perl6::Documentable::DocPage::Factory", url: "/Perl6-Documentable/type/Perl6::Documentable::DocPage::Factory" }
 ,
-{ category: "class", value: "Perl6::Documentable::Secondary", url: "/type/Perl6::Documentable::Secondary" }
+{ category: "class", value: "Perl6::Documentable::Search", url: "/Perl6-Documentable/type/Perl6::Documentable::Search" }
 ,
-{ category: "class", value: "Perl6::Documentable::Search", url: "/type/Perl6::Documentable::Search" }
+{ category: "class", value: "Perl6::Documentable::Config", url: "/Perl6-Documentable/type/Perl6::Documentable::Config" }
 ,
-{ category: "class", value: "Perl6::Documentable::Index", url: "/type/Perl6::Documentable::Index" }
+{ category: "class", value: "X::Documentable::Config::InvalidConfig", url: "/Perl6-Documentable/type/X::Documentable::Config::InvalidConfig" }
 ,
-{ category: "class", value: "Perl6::Documentable::Config", url: "/type/Perl6::Documentable::Config" }
+{ category: "class", value: "Perl6::Documentable::Registry", url: "/Perl6-Documentable/type/Perl6::Documentable::Registry" }
 ,
-{ category: "class", value: "X::Documentable::Config::InvalidConfig", url: "/type/X::Documentable::Config::InvalidConfig" }
+{ category: "class", value: "Perl6::Documentable::Index", url: "/Perl6-Documentable/type/Perl6::Documentable::Index" }
 ,
-{ category: "class", value: "Perl6::Documentable::Primary", url: "/type/Perl6::Documentable::Primary" }
+{ category: "class", value: "Perl6::Documentable::Secondary", url: "/Perl6-Documentable/type/Perl6::Documentable::Secondary" }
 ,
-{ category: "class", value: "X::Documentable::TitleNotFound", url: "/type/X::Documentable::TitleNotFound" }
+{ category: "class", value: "Perl6::Documentable::Primary", url: "/Perl6-Documentable/type/Perl6::Documentable::Primary" }
 ,
-{ category: "class", value: "X::Documentable::SubtitleNotFound", url: "/type/X::Documentable::SubtitleNotFound" }
+{ category: "class", value: "X::Documentable::TitleNotFound", url: "/Perl6-Documentable/type/X::Documentable::TitleNotFound" }
 ,
-{ category: "class", value: "X::Documentable::MissingMetadata", url: "/type/X::Documentable::MissingMetadata" }
+{ category: "class", value: "X::Documentable::SubtitleNotFound", url: "/Perl6-Documentable/type/X::Documentable::SubtitleNotFound" }
 ,
-{ category: "class", value: "Perl6::Documentable::Registry", url: "/type/Perl6::Documentable::Registry" }
+{ category: "class", value: "X::Documentable::MissingMetadata", url: "/Perl6-Documentable/type/X::Documentable::MissingMetadata" }
 ,
-{ category: "grammar", value: "Perl6::Documentable::Heading::Grammar", url: "/type/Perl6::Documentable::Heading::Grammar" }
+{ category: "grammar", value: "Perl6::Documentable::Heading::Grammar", url: "/Perl6-Documentable/type/Perl6::Documentable::Heading::Grammar" }
 ,
-{ category: "class", value: "Perl6::Documentable::To::HTML::Wrapper", url: "/type/Perl6::Documentable::To::HTML::Wrapper" }
+{ category: "class", value: "Perl6::Documentable::To::HTML::Wrapper", url: "/Perl6-Documentable/type/Perl6::Documentable::To::HTML::Wrapper" }
 ,
-{ category: "Language", value: "Command line interface", url: "/language/cli" }
+{ category: "Language", value: "TypeGraph representations", url: "/Perl6-Documentable/language/typegraph" }
 ,
-{ category: "Language", value: "Perl6 Highlighter", url: "/language/highlighting" }
+{ category: "Language", value: "Perl6 Highlighter", url: "/Perl6-Documentable/language/highlighting" }
 ,
-{ category: "Language", value: "TypeGraph representations", url: "/language/typegraph" }
+{ category: "Language", value: "Pod6 Format", url: "/Perl6-Documentable/language/document-format" }
 ,
-{ category: "Language", value: "Configuration file", url: "/language/configuration-file" }
+{ category: "Language", value: "Command line interface", url: "/Perl6-Documentable/language/cli" }
 ,
-{ category: "Language", value: "Pod6 Format", url: "/language/document-format" }
+{ category: "Language", value: "Configuration file", url: "/Perl6-Documentable/language/configuration-file" }
 ,
-{ category: "Routine", value: "BUILD", url: "/routine/BUILD" }
+{ category: "Routine", value: "BUILD", url: "/Perl6-Documentable/routine/BUILD" }
 ,
-{ category: "method", value: "add-new", url: "/routine/add-new" }
+{ category: "method", value: "add-new", url: "/Perl6-Documentable/routine/add-new" }
 ,
-{ category: "method", value: "categories", url: "/routine/categories" }
+{ category: "method", value: "categories", url: "/Perl6-Documentable/routine/categories" }
 ,
-{ category: "method", value: "check-pod", url: "/routine/check-pod" }
+{ category: "method", value: "check-pod", url: "/Perl6-Documentable/routine/check-pod" }
 ,
-{ category: "method", value: "compose", url: "/routine/compose" }
+{ category: "method", value: "compose", url: "/Perl6-Documentable/routine/compose" }
 ,
-{ category: "method", value: "compose-type", url: "/routine/compose-type" }
+{ category: "method", value: "compose-type", url: "/Perl6-Documentable/routine/compose-type" }
 ,
-{ category: "method", value: "composed", url: "/routine/composed" }
+{ category: "method", value: "composed", url: "/Perl6-Documentable/routine/composed" }
 ,
-{ category: "Routine", value: "config", url: "/routine/config" }
+{ category: "Routine", value: "config", url: "/Perl6-Documentable/routine/config" }
 ,
-{ category: "method", value: "definitions", url: "/routine/definitions" }
+{ category: "method", value: "definitions", url: "/Perl6-Documentable/routine/definitions" }
 ,
-{ category: "method", value: "defs", url: "/routine/defs" }
+{ category: "method", value: "defs", url: "/Perl6-Documentable/routine/defs" }
 ,
-{ category: "method", value: "docs", url: "/routine/docs" }
+{ category: "method", value: "docs", url: "/Perl6-Documentable/routine/docs" }
 ,
-{ category: "method", value: "docs-for", url: "/routine/docs-for" }
+{ category: "method", value: "docs-for", url: "/Perl6-Documentable/routine/docs-for" }
 ,
-{ category: "method", value: "documentables", url: "/routine/documentables" }
+{ category: "method", value: "documentables", url: "/Perl6-Documentable/routine/documentables" }
 ,
-{ category: "method", value: "english-list", url: "/routine/english-list" }
+{ category: "method", value: "english-list", url: "/Perl6-Documentable/routine/english-list" }
 ,
-{ category: "Routine", value: "filename", url: "/routine/filename" }
+{ category: "Routine", value: "filename", url: "/Perl6-Documentable/routine/filename" }
 ,
-{ category: "method", value: "find-definitions", url: "/routine/find-definitions" }
+{ category: "method", value: "find-definitions", url: "/Perl6-Documentable/routine/find-definitions" }
 ,
-{ category: "method", value: "find-references", url: "/routine/find-references" }
+{ category: "method", value: "find-references", url: "/Perl6-Documentable/routine/find-references" }
 ,
-{ category: "method", value: "generate-entries", url: "/routine/generate-entries" }
+{ category: "method", value: "generate-entries", url: "/Perl6-Documentable/routine/generate-entries" }
 ,
-{ category: "method", value: "generate-error-page", url: "/routine/generate-error-page" }
+{ category: "method", value: "generate-error-page", url: "/Perl6-Documentable/routine/generate-error-page" }
 ,
-{ category: "method", value: "generate-home-page", url: "/routine/generate-home-page" }
+{ category: "method", value: "generate-home-page", url: "/Perl6-Documentable/routine/generate-home-page" }
 ,
-{ category: "method", value: "generate-index", url: "/routine/generate-index" }
+{ category: "method", value: "generate-index", url: "/Perl6-Documentable/routine/generate-index" }
 ,
-{ category: "method", value: "generate-primary", url: "/routine/generate-primary" }
+{ category: "method", value: "generate-primary", url: "/Perl6-Documentable/routine/generate-primary" }
 ,
-{ category: "method", value: "generate-secondary", url: "/routine/generate-secondary" }
+{ category: "method", value: "generate-secondary", url: "/Perl6-Documentable/routine/generate-secondary" }
 ,
-{ category: "method", value: "generate-subindex", url: "/routine/generate-subindex" }
+{ category: "method", value: "generate-subindex", url: "/Perl6-Documentable/routine/generate-subindex" }
 ,
-{ category: "method", value: "get-categories", url: "/routine/get-categories" }
+{ category: "method", value: "get-categories", url: "/Perl6-Documentable/routine/get-categories" }
 ,
-{ category: "method", value: "get-kind-config", url: "/routine/get-kind-config" }
+{ category: "method", value: "get-kind-config", url: "/Perl6-Documentable/routine/get-kind-config" }
 ,
-{ category: "method", value: "kind", url: "/routine/kind" }
+{ category: "method", value: "kind", url: "/Perl6-Documentable/routine/kind" }
 ,
-{ category: "method", value: "kinds", url: "/routine/kinds" }
+{ category: "method", value: "kinds", url: "/Perl6-Documentable/routine/kinds" }
 ,
-{ category: "method", value: "load", url: "/routine/load" }
+{ category: "method", value: "load", url: "/Perl6-Documentable/routine/load" }
 ,
-{ category: "method", value: "lookup", url: "/routine/lookup" }
+{ category: "method", value: "lookup", url: "/Perl6-Documentable/routine/lookup" }
 ,
-{ category: "method", value: "meta", url: "/routine/meta" }
+{ category: "method", value: "meta", url: "/Perl6-Documentable/routine/meta" }
 ,
-{ category: "method", value: "name", url: "/routine/name" }
+{ category: "method", value: "name", url: "/Perl6-Documentable/routine/name" }
 ,
-{ category: "Routine", value: "new", url: "/routine/new" }
+{ category: "Routine", value: "new", url: "/Perl6-Documentable/routine/new" }
 ,
-{ category: "Routine", value: "origin", url: "/routine/origin" }
+{ category: "Routine", value: "origin", url: "/Perl6-Documentable/routine/origin" }
 ,
-{ category: "method", value: "parent-class", url: "/routine/parent-class" }
+{ category: "method", value: "parent-class", url: "/Perl6-Documentable/routine/parent-class" }
 ,
-{ category: "method", value: "parse-definition-header", url: "/routine/parse-definition-header" }
+{ category: "method", value: "parse-definition-header", url: "/Perl6-Documentable/routine/parse-definition-header" }
 ,
-{ category: "method", value: "pod", url: "/routine/pod" }
+{ category: "method", value: "pod", url: "/Perl6-Documentable/routine/pod" }
 ,
-{ category: "method", value: "pod-cache", url: "/routine/pod-cache" }
+{ category: "method", value: "pod-cache", url: "/Perl6-Documentable/routine/pod-cache" }
 ,
-{ category: "method", value: "process-pod-dir", url: "/routine/process-pod-dir" }
+{ category: "method", value: "process-pod-dir", url: "/Perl6-Documentable/routine/process-pod-dir" }
 ,
-{ category: "method", value: "references", url: "/routine/references" }
+{ category: "method", value: "references", url: "/Perl6-Documentable/routine/references" }
 ,
-{ category: "method", value: "refs", url: "/routine/refs" }
+{ category: "method", value: "refs", url: "/Perl6-Documentable/routine/refs" }
 ,
-{ category: "method", value: "registry", url: "/routine/registry" }
+{ category: "method", value: "registry", url: "/Perl6-Documentable/routine/registry" }
 ,
-{ category: "Routine", value: "render", url: "/routine/render" }
+{ category: "Routine", value: "render", url: "/Perl6-Documentable/routine/render" }
 ,
-{ category: "method", value: "roles-done-by-parent-class", url: "/routine/roles-done-by-parent-class" }
+{ category: "method", value: "roles-done-by-parent-class", url: "/Perl6-Documentable/routine/roles-done-by-parent-class" }
 ,
-{ category: "method", value: "roles-done-by-type", url: "/routine/roles-done-by-type" }
+{ category: "method", value: "roles-done-by-type", url: "/Perl6-Documentable/routine/roles-done-by-type" }
 ,
-{ category: "method", value: "routines-by-type", url: "/routine/routines-by-type" }
+{ category: "method", value: "routines-by-type", url: "/Perl6-Documentable/routine/routines-by-type" }
 ,
-{ category: "method", value: "subkinds", url: "/routine/subkinds" }
+{ category: "method", value: "subkinds", url: "/Perl6-Documentable/routine/subkinds" }
 ,
-{ category: "method", value: "summary", url: "/routine/summary" }
+{ category: "method", value: "summary", url: "/Perl6-Documentable/routine/summary" }
 ,
-{ category: "method", value: "tg", url: "/routine/tg" }
+{ category: "method", value: "tg", url: "/Perl6-Documentable/routine/tg" }
 ,
-{ category: "method", value: "topdir", url: "/routine/topdir" }
+{ category: "method", value: "topdir", url: "/Perl6-Documentable/routine/topdir" }
 ,
-{ category: "method", value: "typegraph-fragment", url: "/routine/typegraph-fragment" }
+{ category: "method", value: "typegraph-fragment", url: "/Perl6-Documentable/routine/typegraph-fragment" }
 ,
-{ category: "Routine", value: "url", url: "/routine/url" }
+{ category: "Routine", value: "url", url: "/Perl6-Documentable/routine/url" }
 ,
-{ category: "method", value: "url-in-origin", url: "/routine/url-in-origin" }
+{ category: "method", value: "url-in-origin", url: "/Perl6-Documentable/routine/url-in-origin" }
 ,
-{ category: "method", value: "url-prefix", url: "/routine/url-prefix" }
+{ category: "method", value: "url-prefix", url: "/Perl6-Documentable/routine/url-prefix" }
 ,
-{ category: "method", value: "use-cache", url: "/routine/use-cache" }
+{ category: "method", value: "use-cache", url: "/Perl6-Documentable/routine/use-cache" }
 ,
-{ category: "syntax", value: "--conf=<Str>", url: "/syntax/--conf=<Str>" }
+{ category: "syntax", value: "--conf=<Str>", url: "/Perl6-Documentable/syntax/--conf=<Str>" }
 ,
-{ category: "syntax", value: "--dirs=<Str>", url: "/syntax/--dirs=<Str>" }
+{ category: "syntax", value: "--dirs=<Str>", url: "/Perl6-Documentable/syntax/--dirs=<Str>" }
 ,
-{ category: "syntax", value: "--highlight", url: "/syntax/--highlight" }
+{ category: "syntax", value: "--highlight", url: "/Perl6-Documentable/syntax/--highlight" }
 ,
-{ category: "syntax", value: "--highlight-path=<Str>", url: "/syntax/--highlight-path=<Str>" }
+{ category: "syntax", value: "--highlight-path=<Str>", url: "/Perl6-Documentable/syntax/--highlight-path=<Str>" }
 ,
-{ category: "syntax", value: "--search-index", url: "/syntax/--search-index" }
+{ category: "syntax", value: "--search-index", url: "/Perl6-Documentable/syntax/--search-index" }
 ,
-{ category: "syntax", value: "--topdir=<Str>", url: "/syntax/--topdir=<Str>" }
+{ category: "syntax", value: "--topdir=<Str>", url: "/Perl6-Documentable/syntax/--topdir=<Str>" }
 ,
-{ category: "syntax", value: "--typegraph-file=<Str>", url: "/syntax/--typegraph-file=<Str>" }
+{ category: "syntax", value: "--typegraph-file=<Str>", url: "/Perl6-Documentable/syntax/--typegraph-file=<Str>" }
 ,
-{ category: "syntax", value: "-a, --all", url: "/syntax/-a, --all" }
+{ category: "syntax", value: "-a, --all", url: "/Perl6-Documentable/syntax/-a, --all" }
 ,
-{ category: "syntax", value: "-c, --cache", url: "/syntax/-c, --cache" }
+{ category: "syntax", value: "-c, --cache", url: "/Perl6-Documentable/syntax/-c, --cache" }
 ,
-{ category: "syntax", value: "-f, --force", url: "/syntax/-f, --force" }
+{ category: "syntax", value: "-f, --force", url: "/Perl6-Documentable/syntax/-f, --force" }
 ,
-{ category: "syntax", value: "-i, --indexes", url: "/syntax/-i, --indexes" }
+{ category: "syntax", value: "-i, --indexes", url: "/Perl6-Documentable/syntax/-i, --indexes" }
 ,
-{ category: "syntax", value: "-p, --primary", url: "/syntax/-p, --primary" }
+{ category: "syntax", value: "-p, --primary", url: "/Perl6-Documentable/syntax/-p, --primary" }
 ,
-{ category: "syntax", value: "-s, --secondary", url: "/syntax/-s, --secondary" }
+{ category: "syntax", value: "-s, --secondary", url: "/Perl6-Documentable/syntax/-s, --secondary" }
 ,
-{ category: "syntax", value: "-t, --typegraph", url: "/syntax/-t, --typegraph" }
+{ category: "syntax", value: "-t, --typegraph", url: "/Perl6-Documentable/syntax/-t, --typegraph" }
 ,
-{ category: "syntax", value: "-v, --verbose", url: "/syntax/-v, --verbose" }
+{ category: "syntax", value: "-v, --verbose", url: "/Perl6-Documentable/syntax/-v, --verbose" }
 ,
-{ category: "syntax", value: "documentable clean", url: "/syntax/documentable clean" }
+{ category: "syntax", value: "documentable clean", url: "/Perl6-Documentable/syntax/documentable clean" }
 ,
-{ category: "syntax", value: "documentable setup", url: "/syntax/documentable setup" }
+{ category: "syntax", value: "documentable setup", url: "/Perl6-Documentable/syntax/documentable setup" }
 ,
-{ category: "syntax", value: "documentable start", url: "/syntax/documentable start" }
+{ category: "syntax", value: "documentable start", url: "/Perl6-Documentable/syntax/documentable start" }
 ,
-{ category: "syntax", value: "documentable update", url: "/syntax/documentable update" }
+{ category: "syntax", value: "documentable update", url: "/Perl6-Documentable/syntax/documentable update" }
 ,
-{ category: "Reference", value: "documentable setup", url: "/language/cli#index-entry-documentable_setup" }
+{ category: "Reference", value: "documentable setup", url: "/Perl6-Documentable/language/cli#index-entry-documentable_setup" }
 ,
-{ category: "Reference", value: "documentable start", url: "/language/cli#index-entry-documentable_start" }
+{ category: "Reference", value: "documentable start", url: "/Perl6-Documentable/language/cli#index-entry-documentable_start" }
 ,
-{ category: "Reference", value: "documentable update", url: "/language/cli#index-entry-documentable_update" }
+{ category: "Reference", value: "documentable update", url: "/Perl6-Documentable/language/cli#index-entry-documentable_update" }
 ,
-{ category: "Reference", value: "documentable clean", url: "/language/cli#index-entry-documentable_clean" }
+{ category: "Reference", value: "documentable clean", url: "/Perl6-Documentable/language/cli#index-entry-documentable_clean" }
 ,
-{ category: "Reference", value: "--topdir=<Str>", url: "/language/cli#index-entry---topdir=<Str>" }
+{ category: "Reference", value: "--topdir=<Str>", url: "/Perl6-Documentable/language/cli#index-entry---topdir=<Str>" }
 ,
-{ category: "Reference", value: "--conf=<Str>", url: "/language/cli#index-entry---conf=<Str>" }
+{ category: "Reference", value: "--conf=<Str>", url: "/Perl6-Documentable/language/cli#index-entry---conf=<Str>" }
 ,
-{ category: "Reference", value: "-v, --verbose", url: "/language/cli#index-entry--v,_--verbose" }
+{ category: "Reference", value: "-v, --verbose", url: "/Perl6-Documentable/language/cli#index-entry--v,_--verbose" }
 ,
-{ category: "Reference", value: "-c, --cache", url: "/language/cli#index-entry--c,_--cache" }
+{ category: "Reference", value: "-c, --cache", url: "/Perl6-Documentable/language/cli#index-entry--c,_--cache" }
 ,
-{ category: "Reference", value: "-p, --primary", url: "/language/cli#index-entry--p,_--primary" }
+{ category: "Reference", value: "-p, --primary", url: "/Perl6-Documentable/language/cli#index-entry--p,_--primary" }
 ,
-{ category: "Reference", value: "-s, --secondary", url: "/language/cli#index-entry--s,_--secondary" }
+{ category: "Reference", value: "-s, --secondary", url: "/Perl6-Documentable/language/cli#index-entry--s,_--secondary" }
 ,
-{ category: "Reference", value: "--search-index", url: "/language/cli#index-entry---search-index" }
+{ category: "Reference", value: "--search-index", url: "/Perl6-Documentable/language/cli#index-entry---search-index" }
 ,
-{ category: "Reference", value: "-i, --indexes", url: "/language/cli#index-entry--i,_--indexes" }
+{ category: "Reference", value: "-i, --indexes", url: "/Perl6-Documentable/language/cli#index-entry--i,_--indexes" }
 ,
-{ category: "Reference", value: "-t, --typegraph", url: "/language/cli#index-entry--t,_--typegraph" }
+{ category: "Reference", value: "-t, --typegraph", url: "/Perl6-Documentable/language/cli#index-entry--t,_--typegraph" }
 ,
-{ category: "Reference", value: "-f, --force", url: "/language/cli#index-entry--f,_--force" }
+{ category: "Reference", value: "-f, --force", url: "/Perl6-Documentable/language/cli#index-entry--f,_--force" }
 ,
-{ category: "Reference", value: "--highlight", url: "/language/cli#index-entry---highlight" }
+{ category: "Reference", value: "--highlight", url: "/Perl6-Documentable/language/cli#index-entry---highlight" }
 ,
-{ category: "Reference", value: "--typegraph-file=<Str>", url: "/language/cli#index-entry---typegraph-file=<Str>" }
+{ category: "Reference", value: "--typegraph-file=<Str>", url: "/Perl6-Documentable/language/cli#index-entry---typegraph-file=<Str>" }
 ,
-{ category: "Reference", value: "--highlight-path=<Str>", url: "/language/cli#index-entry---highlight-path=<Str>" }
+{ category: "Reference", value: "--highlight-path=<Str>", url: "/Perl6-Documentable/language/cli#index-entry---highlight-path=<Str>" }
 ,
-{ category: "Reference", value: "--dirs=<Str>", url: "/language/cli#index-entry---dirs=<Str>" }
+{ category: "Reference", value: "--dirs=<Str>", url: "/Perl6-Documentable/language/cli#index-entry---dirs=<Str>" }
 ,
-{ category: "Reference", value: "-a, --all", url: "/language/cli#index-entry--a,_--all" }
+{ category: "Reference", value: "-a, --all", url: "/Perl6-Documentable/language/cli#index-entry--a,_--all" }
 ,
-{ category: "Reference", value: "a2 (a1)", url: "/type/Perl6::Documentable::Index#index-entry-a1_a2-b1_b2-content_part" }
+{ category: "Reference", value: "a2 (a1)", url: "/Perl6-Documentable/type/Perl6::Documentable::Index#index-entry-a1_a2-b1_b2-content_part" }
 ,
-{ category: "Reference", value: "b2 (b1)", url: "/type/Perl6::Documentable::Index#index-entry-a1_a2-b1_b2-content_part" }
+{ category: "Reference", value: "b2 (b1)", url: "/Perl6-Documentable/type/Perl6::Documentable::Index#index-entry-a1_a2-b1_b2-content_part" }
 ,
-{ category: "Reference", value: "", url: "/type/Perl6::Documentable::Index#index-entry" }
+{ category: "Reference", value: "", url: "/Perl6-Documentable/type/Perl6::Documentable::Index#index-entry" }
  ];
           var results = $.ui.autocomplete.filter(items, request.term);
           function trim_results(results, term) {
