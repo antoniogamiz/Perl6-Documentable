@@ -5,15 +5,15 @@ digraph "perl6-type-graph" {
     // Types
     "Perl6::Documentable" [color="#000000", fontcolor="#000000", href="/type/Perl6::Documentable", fontname="FreeSans"];
     "Any" [color="#000000", fontcolor="#000000", href="/type/Any", fontname="FreeSans"];
-    "Perl6::Documentable::Secondary" [color="#000000", fontcolor="#000000", href="/type/Perl6::Documentable::Secondary", fontname="FreeSans"];
     "Perl6::Documentable::Index" [color="#000000", fontcolor="#000000", href="/type/Perl6::Documentable::Index", fontname="FreeSans"];
     "Perl6::Documentable::Primary" [color="#000000", fontcolor="#000000", href="/type/Perl6::Documentable::Primary", fontname="FreeSans"];
+    "Perl6::Documentable::Secondary" [color="#000000", fontcolor="#000000", href="/type/Perl6::Documentable::Secondary", fontname="FreeSans"];
 
     // Superclasses
     "Perl6::Documentable" -> "Any" [color="#000000"];
-    "Perl6::Documentable::Secondary" -> "Perl6::Documentable" [color="#000000"];
     "Perl6::Documentable::Index" -> "Perl6::Documentable" [color="#000000"];
     "Perl6::Documentable::Primary" -> "Perl6::Documentable" [color="#000000"];
+    "Perl6::Documentable::Secondary" -> "Perl6::Documentable" [color="#000000"];
 
     // Roles
 }
