@@ -54,7 +54,7 @@ package Perl6::Documentable::CLI {
         Str  :$dirs?,                                   #= Dirs where documentation will be found. Relative to :$topdir
         Bool :a(:$all)             = False              #= Equivalent to -t -p -k -i -s
     ) {
-        if (!"./html".IO.e || !"./assets".IO.e || !"./templates".IO.e) {
+        if (!"./html".IO.e || !"./assets".IO.e || !"./template".IO.e) {
             note q:to/END/;
                 (warning) html and/or assets and/or templates directories
                 cannot be found. You can get the defaults by executing:
@@ -184,7 +184,8 @@ package Perl6::Documentable::CLI {
         if ($search-index || $all ) {
             DEBUG("Writing search file...", $v);
             mkdir 'html/js';
-            @docs.push($factory.generate-search-file);
+            my $search-doc = $factory.generate-search-file;
+            spurt "html{$search-doc<url>}", $search-doc<document>;
         }
 
         DEBUG("Writing all generated files...", $v);
@@ -261,7 +262,9 @@ package Perl6::Documentable::CLI {
             }
         }
 
-        @docs.push($factory.generate-search-file);
+        # update search index
+        my $search-doc = $factory.generate-search-file;
+        spurt "html{$search-doc<url>}", $search-doc<document>;
 
         @docs.map(-> $doc { spurt "html{$doc<url>}.html", $doc<document> });
         print-time("Updating files", $now);

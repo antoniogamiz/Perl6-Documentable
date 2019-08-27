@@ -1,8 +1,31 @@
 # Change Log
 
-## [Unreleased](https://github.com/antoniogamiz/Perl6-Documentable/tree/HEAD)
+## [v3.0.1](https://github.com/antoniogamiz/Perl6-Documentable/tree/v3.0.1) (2019-08-26)
+[Full Changelog](https://github.com/antoniogamiz/Perl6-Documentable/compare/v3.0.0...v3.0.1)
 
-[Full Changelog](https://github.com/antoniogamiz/Perl6-Documentable/compare/v2.3.1...HEAD)
+**Fixed bugs:**
+
+- Tells you to run setup right after running setup [\#104](https://github.com/antoniogamiz/Perl6-Documentable/issues/104)
+
+**Closed issues:**
+
+- Missing classes in type-graph should raise an exception [\#107](https://github.com/antoniogamiz/Perl6-Documentable/issues/107)
+- documentable update -v does not work [\#105](https://github.com/antoniogamiz/Perl6-Documentable/issues/105)
+
+**Merged pull requests:**
+
+- Some fixes to the README, mainly grammar and typography [\#103](https://github.com/antoniogamiz/Perl6-Documentable/pull/103) ([JJ](https://github.com/JJ))
+
+## [v3.0.0](https://github.com/antoniogamiz/Perl6-Documentable/tree/v3.0.0) (2019-08-24)
+[Full Changelog](https://github.com/antoniogamiz/Perl6-Documentable/compare/v2.3.1...v3.0.0)
+
+**Implemented enhancements:**
+
+- Changelog [\#98](https://github.com/antoniogamiz/Perl6-Documentable/issues/98)
+
+**Fixed bugs:**
+
+- url-prefix property does not work in search items [\#100](https://github.com/antoniogamiz/Perl6-Documentable/issues/100)
 
 **Closed issues:**
 
@@ -10,6 +33,7 @@
 - Breaking changes, no working release version [\#95](https://github.com/antoniogamiz/Perl6-Documentable/issues/95)
 - Search logic should be moved to a class  [\#93](https://github.com/antoniogamiz/Perl6-Documentable/issues/93)
 - Support for multiple highlighters [\#89](https://github.com/antoniogamiz/Perl6-Documentable/issues/89)
+- HTML documentation [\#87](https://github.com/antoniogamiz/Perl6-Documentable/issues/87)
 - A better way to specify DOCUMENTABLE-DIRS is necessary [\#86](https://github.com/antoniogamiz/Perl6-Documentable/issues/86)
 
 ## [v2.3.1](https://github.com/antoniogamiz/Perl6-Documentable/tree/v2.3.1) (2019-08-13)
@@ -27,13 +51,13 @@
 - Some changes to the urls in Perl6::Documentable::Secondary [\#91](https://github.com/antoniogamiz/Perl6-Documentable/issues/91)
 - url-prefix option is needed [\#90](https://github.com/antoniogamiz/Perl6-Documentable/issues/90)
 - Eliminates Hack with 5to6-perlfun [\#88](https://github.com/antoniogamiz/Perl6-Documentable/issues/88)
-- Primary and secondary better than "file" and "derived" [\#80](https://github.com/antoniogamiz/Perl6-Documentable/issues/80)
 
 ## [v2.2.0](https://github.com/antoniogamiz/Perl6-Documentable/tree/v2.2.0) (2019-08-09)
 [Full Changelog](https://github.com/antoniogamiz/Perl6-Documentable/compare/v2.1.4...v2.2.0)
 
 **Closed issues:**
 
+- Primary and secondary better than "file" and "derived" [\#80](https://github.com/antoniogamiz/Perl6-Documentable/issues/80)
 - Page order should follow the new page specification. [\#51](https://github.com/antoniogamiz/Perl6-Documentable/issues/51)
 
 ## [v2.1.4](https://github.com/antoniogamiz/Perl6-Documentable/tree/v2.1.4) (2019-08-09)
@@ -46,6 +70,10 @@
 **Closed issues:**
 
 - Refactor Wrapper [\#77](https://github.com/antoniogamiz/Perl6-Documentable/issues/77)
+
+**Merged pull requests:**
+
+- new TODO and some changes in documentation [\#83](https://github.com/antoniogamiz/Perl6-Documentable/pull/83) ([JJ](https://github.com/JJ))
 
 ## [v2.1.3](https://github.com/antoniogamiz/Perl6-Documentable/tree/v2.1.3) (2019-08-06)
 [Full Changelog](https://github.com/antoniogamiz/Perl6-Documentable/compare/v2.1.2...v2.1.3)
@@ -91,7 +119,6 @@
 
 **Closed issues:**
 
-- HTML documentation [\#87](https://github.com/antoniogamiz/Perl6-Documentable/issues/87)
 - Change directory name for caches [\#68](https://github.com/antoniogamiz/Perl6-Documentable/issues/68)
 - Finish TODO list [\#63](https://github.com/antoniogamiz/Perl6-Documentable/issues/63)
 - Add a section to the README with the necessary dependencies [\#62](https://github.com/antoniogamiz/Perl6-Documentable/issues/62)
@@ -106,6 +133,13 @@
 - Add indexing rules [\#29](https://github.com/antoniogamiz/Perl6-Documentable/issues/29)
 - URL handling [\#21](https://github.com/antoniogamiz/Perl6-Documentable/issues/21)
 - Document the current build process [\#4](https://github.com/antoniogamiz/Perl6-Documentable/issues/4)
+
+**Merged pull requests:**
+
+- Avoid "magic lists" in code [\#70](https://github.com/antoniogamiz/Perl6-Documentable/pull/70) ([JJ](https://github.com/JJ))
+- Fix pod loading in example [\#67](https://github.com/antoniogamiz/Perl6-Documentable/pull/67) ([noisegul](https://github.com/noisegul))
+- Url and references [\#65](https://github.com/antoniogamiz/Perl6-Documentable/pull/65) ([antoniogamiz](https://github.com/antoniogamiz))
+- Minor changes to documentation, fixing English... [\#52](https://github.com/antoniogamiz/Perl6-Documentable/pull/52) ([JJ](https://github.com/JJ))
 
 ## [v1.1.2](https://github.com/antoniogamiz/Perl6-Documentable/tree/v1.1.2) (2019-07-15)
 [Full Changelog](https://github.com/antoniogamiz/Perl6-Documentable/compare/v1.0.0...v1.1.2)
@@ -123,6 +157,13 @@
 - Warnings in some routines [\#34](https://github.com/antoniogamiz/Perl6-Documentable/issues/34)
 - Add use examples for every method [\#14](https://github.com/antoniogamiz/Perl6-Documentable/issues/14)
 - Proper subkind of a routine [\#9](https://github.com/antoniogamiz/Perl6-Documentable/issues/9)
+
+**Merged pull requests:**
+
+- Updateoption, close \#46 [\#47](https://github.com/antoniogamiz/Perl6-Documentable/pull/47) ([antoniogamiz](https://github.com/antoniogamiz))
+- Htmlrefactor [\#45](https://github.com/antoniogamiz/Perl6-Documentable/pull/45) ([antoniogamiz](https://github.com/antoniogamiz))
+- Improve tests, close \#39, close \#40 [\#41](https://github.com/antoniogamiz/Perl6-Documentable/pull/41) ([antoniogamiz](https://github.com/antoniogamiz))
+- Grammar, close \#36 [\#37](https://github.com/antoniogamiz/Perl6-Documentable/pull/37) ([antoniogamiz](https://github.com/antoniogamiz))
 
 ## [v1.0.0](https://github.com/antoniogamiz/Perl6-Documentable/tree/v1.0.0) (2019-07-10)
 [Full Changelog](https://github.com/antoniogamiz/Perl6-Documentable/compare/v1.0.1...v1.0.0)
@@ -162,6 +203,11 @@
 - Move find-definitions here [\#3](https://github.com/antoniogamiz/Perl6-Documentable/issues/3)
 - Brief docs in the README.md [\#2](https://github.com/antoniogamiz/Perl6-Documentable/issues/2)
 - Create a first set of test [\#1](https://github.com/antoniogamiz/Perl6-Documentable/issues/1)
+
+**Merged pull requests:**
+
+- Some minor changes [\#10](https://github.com/antoniogamiz/Perl6-Documentable/pull/10) ([JJ](https://github.com/JJ))
+- Tests with the new version of Pod::Load [\#8](https://github.com/antoniogamiz/Perl6-Documentable/pull/8) ([JJ](https://github.com/JJ))
 
 
 

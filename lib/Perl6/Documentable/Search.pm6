@@ -5,7 +5,7 @@ unit class Perl6::Documentable::Search;
 has Str $.prefix;
 
 submethod BUILD(
-    :$prefix = ''
+    :$!prefix = ''
 ) {}
 
 method generate-entries($registry) {
@@ -26,7 +26,7 @@ method generate-entries($registry) {
                           .pairs.sort({.key})
                           .map( -> (:key($name), :value(@docs)) {
                                 self.search-entry(
-                                    category => @docs > 1 ?? $kind.gist !! @docs[0].subkinds[0] || '',
+                                    category => @docs > 1 ?? $kind.gist !! @docs[0].subkinds[0] || $kind.gist,
                                     value    => $name,
                                     url      => escape-json("/{$kind.lc}/{good-name($name)}")
                                 )
@@ -45,7 +45,7 @@ method generate-entries($registry) {
 }
 
 method search-entry(Str :$category, Str :$value, Str :$url is copy) {
-    $url = $!prefix ?? "/" ~ $.prffix ~ $url !! $url;
+    $url = $.prefix ?? "/" ~ $.prefix ~ $url !! $url;
     qq[[\{ category: "{$category}", value: "{$value}", url: "{$url}" \}\n]]
 }
 

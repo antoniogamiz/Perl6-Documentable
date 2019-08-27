@@ -132,7 +132,7 @@ class Perl6::Documentable::DocPage::Primary::Type
     #| Completes a type pod with inherited routines
     method compose-type($registry, $doc) {
 
-        die X::Documentable::TypeNotFound.new(:type("$doc.name"))
+        die X::Documentable::TypeNotFound.new(:type($doc.name))
         unless $registry.tg.types{$doc.name};
 
         $doc.pod.contents.append: self.typegraph-fragment($doc.name);
