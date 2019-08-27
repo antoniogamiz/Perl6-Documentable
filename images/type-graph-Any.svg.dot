@@ -39,6 +39,7 @@ digraph "perl6-type-graph" {
     "Perl6::Documentable::Config" [color="#000000", fontcolor="#000000", href="/type/Perl6::Documentable::Config", fontname="FreeSans"];
     "Perl6::Documentable::DocPage" [color="#6666FF", fontcolor="#6666FF", href="/type/Perl6::Documentable::DocPage", fontname="FreeSans"];
     "Perl6::Documentable::DocPage::Factory" [color="#000000", fontcolor="#000000", href="/type/Perl6::Documentable::DocPage::Factory", fontname="FreeSans"];
+    "Perl6::Documentable::DocPage::Index" [color="#000000", fontcolor="#000000", href="/type/Perl6::Documentable::DocPage::Index", fontname="FreeSans"];
     "Perl6::Documentable::DocPage::Index::Language" [color="#000000", fontcolor="#000000", href="/type/Perl6::Documentable::DocPage::Index::Language", fontname="FreeSans"];
     "Perl6::Documentable::DocPage::Index::Programs" [color="#000000", fontcolor="#000000", href="/type/Perl6::Documentable::DocPage::Index::Programs", fontname="FreeSans"];
     "Perl6::Documentable::DocPage::Index::Routine" [color="#000000", fontcolor="#000000", href="/type/Perl6::Documentable::DocPage::Index::Routine", fontname="FreeSans"];
@@ -54,6 +55,7 @@ digraph "perl6-type-graph" {
     "Perl6::Documentable::Index" [color="#000000", fontcolor="#000000", href="/type/Perl6::Documentable::Index", fontname="FreeSans"];
     "Perl6::Documentable::Primary" [color="#000000", fontcolor="#000000", href="/type/Perl6::Documentable::Primary", fontname="FreeSans"];
     "Perl6::Documentable::Registry" [color="#000000", fontcolor="#000000", href="/type/Perl6::Documentable::Registry", fontname="FreeSans"];
+    "Perl6::Documentable::Search" [color="#000000", fontcolor="#000000", href="/type/Perl6::Documentable::Search", fontname="FreeSans"];
     "Perl6::Documentable::Secondary" [color="#000000", fontcolor="#000000", href="/type/Perl6::Documentable::Secondary", fontname="FreeSans"];
     "Perl6::Documentable::To::HTML::Wrapper" [color="#000000", fontcolor="#000000", href="/type/Perl6::Documentable::To::HTML::Wrapper", fontname="FreeSans"];
 
@@ -63,6 +65,7 @@ digraph "perl6-type-graph" {
     "Perl6::Documentable" -> "Any" [color="#000000"];
     "Perl6::Documentable::Config" -> "Any" [color="#000000"];
     "Perl6::Documentable::DocPage::Factory" -> "Any" [color="#000000"];
+    "Perl6::Documentable::DocPage::Index" -> "Any" [color="#000000"];
     "Perl6::Documentable::DocPage::Index::Language" -> "Perl6::Documentable::DocPage" [color="#000000"];
     "Perl6::Documentable::DocPage::Index::Programs" -> "Perl6::Documentable::DocPage" [color="#000000"];
     "Perl6::Documentable::DocPage::Index::Routine" -> "Perl6::Documentable::DocPage" [color="#000000"];
@@ -78,6 +81,7 @@ digraph "perl6-type-graph" {
     "Perl6::Documentable::Index" -> "Perl6::Documentable" [color="#000000"];
     "Perl6::Documentable::Primary" -> "Perl6::Documentable" [color="#000000"];
     "Perl6::Documentable::Registry" -> "Any" [color="#000000"];
+    "Perl6::Documentable::Search" -> "Any" [color="#000000"];
     "Perl6::Documentable::Secondary" -> "Perl6::Documentable" [color="#000000"];
     "Perl6::Documentable::To::HTML::Wrapper" -> "Any" [color="#000000"];
 
