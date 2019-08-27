@@ -5,16 +5,16 @@
  -->
 <!-- Title: perl6&#45;type&#45;graph Pages: 1 -->
 <svg width="929pt" height="188pt"
- viewBox="0.00 0.00 929.07 188.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ viewBox="0.00 0.00 929.32 188.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 184)">
 <title>perl6&#45;type&#45;graph</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-184 925.0738,-184 925.0738,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-184 925.3247,-184 925.3247,4 -4,4"/>
 <!-- Perl6::Documentable -->
 <g id="node1" class="node">
 <title>Perl6::Documentable</title>
 <g id="a_node1"><a xlink:href="/type/Perl6::Documentable" xlink:title="Perl6::Documentable">
-<ellipse fill="none" stroke="#000000" cx="440.7878" cy="-90" rx="103.1819" ry="18"/>
-<text text-anchor="middle" x="440.7878" y="-86.3" font-family="FreeSans" font-size="14.00" fill="#000000">Perl6::Documentable</text>
+<ellipse fill="none" stroke="#000000" cx="450.7878" cy="-90" rx="103.1819" ry="18"/>
+<text text-anchor="middle" x="450.7878" y="-86.3" font-family="FreeSans" font-size="14.00" fill="#000000">Perl6::Documentable</text>
 </a>
 </g>
 </g>
@@ -22,16 +22,16 @@
 <g id="node2" class="node">
 <title>Any</title>
 <g id="a_node2"><a xlink:href="/type/Any" xlink:title="Any">
-<ellipse fill="none" stroke="#000000" cx="440.7878" cy="-162" rx="27" ry="18"/>
-<text text-anchor="middle" x="440.7878" y="-158.3" font-family="FreeSans" font-size="14.00" fill="#000000">Any</text>
+<ellipse fill="none" stroke="#000000" cx="450.7878" cy="-162" rx="27" ry="18"/>
+<text text-anchor="middle" x="450.7878" y="-158.3" font-family="FreeSans" font-size="14.00" fill="#000000">Any</text>
 </a>
 </g>
 </g>
 <!-- Perl6::Documentable&#45;&gt;Any -->
 <g id="edge1" class="edge">
 <title>Perl6::Documentable&#45;&gt;Any</title>
-<path fill="none" stroke="#000000" d="M440.7878,-108.1686C440.7878,-115.869 440.7878,-125.0257 440.7878,-133.5834"/>
-<polygon fill="#000000" stroke="#000000" points="437.2879,-133.5867 440.7878,-143.5867 444.2879,-133.5868 437.2879,-133.5867"/>
+<path fill="none" stroke="#000000" d="M450.7878,-108.1686C450.7878,-115.869 450.7878,-125.0257 450.7878,-133.5834"/>
+<polygon fill="#000000" stroke="#000000" points="447.2879,-133.5867 450.7878,-143.5867 454.2879,-133.5868 447.2879,-133.5867"/>
 </g>
 <!-- Perl6::Documentable::Index -->
 <g id="node3" class="node">
@@ -45,38 +45,38 @@
 <!-- Perl6::Documentable::Index&#45;&gt;Perl6::Documentable -->
 <g id="edge2" class="edge">
 <title>Perl6::Documentable::Index&#45;&gt;Perl6::Documentable</title>
-<path fill="none" stroke="#000000" d="M204.2824,-33.8007C253.2776,-45.4431 319.8102,-61.2529 369.8288,-73.1385"/>
-<polygon fill="#000000" stroke="#000000" points="369.064,-76.5541 379.6023,-75.4609 370.6824,-69.7437 369.064,-76.5541"/>
-</g>
-<!-- Perl6::Documentable::Primary -->
-<g id="node4" class="node">
-<title>Perl6::Documentable::Primary</title>
-<g id="a_node4"><a xlink:href="/type/Perl6::Documentable::Primary" xlink:title="Perl6::Documentable::Primary">
-<ellipse fill="none" stroke="#000000" cx="440.7878" cy="-18" rx="147.5738" ry="18"/>
-<text text-anchor="middle" x="440.7878" y="-14.3" font-family="FreeSans" font-size="14.00" fill="#000000">Perl6::Documentable::Primary</text>
-</a>
-</g>
-</g>
-<!-- Perl6::Documentable::Primary&#45;&gt;Perl6::Documentable -->
-<g id="edge3" class="edge">
-<title>Perl6::Documentable::Primary&#45;&gt;Perl6::Documentable</title>
-<path fill="none" stroke="#000000" d="M440.7878,-36.1686C440.7878,-43.869 440.7878,-53.0257 440.7878,-61.5834"/>
-<polygon fill="#000000" stroke="#000000" points="437.2879,-61.5867 440.7878,-71.5867 444.2879,-61.5868 437.2879,-61.5867"/>
+<path fill="none" stroke="#000000" d="M206.0902,-33.7117C257.0394,-45.4317 326.5055,-61.4111 378.4081,-73.3504"/>
+<polygon fill="#000000" stroke="#000000" points="377.6847,-76.7753 388.2149,-75.6062 379.254,-69.9535 377.6847,-76.7753"/>
 </g>
 <!-- Perl6::Documentable::Secondary -->
-<g id="node5" class="node">
+<g id="node4" class="node">
 <title>Perl6::Documentable::Secondary</title>
-<g id="a_node5"><a xlink:href="/type/Perl6::Documentable::Secondary" xlink:title="Perl6::Documentable::Secondary">
-<ellipse fill="none" stroke="#000000" cx="763.7878" cy="-18" rx="157.0724" ry="18"/>
-<text text-anchor="middle" x="763.7878" y="-14.3" font-family="FreeSans" font-size="14.00" fill="#000000">Perl6::Documentable::Secondary</text>
+<g id="a_node4"><a xlink:href="/type/Perl6::Documentable::Secondary" xlink:title="Perl6::Documentable::Secondary">
+<ellipse fill="none" stroke="#000000" cx="450.7878" cy="-18" rx="157.0724" ry="18"/>
+<text text-anchor="middle" x="450.7878" y="-14.3" font-family="FreeSans" font-size="14.00" fill="#000000">Perl6::Documentable::Secondary</text>
 </a>
 </g>
 </g>
 <!-- Perl6::Documentable::Secondary&#45;&gt;Perl6::Documentable -->
-<g id="edge4" class="edge">
+<g id="edge3" class="edge">
 <title>Perl6::Documentable::Secondary&#45;&gt;Perl6::Documentable</title>
-<path fill="none" stroke="#000000" d="M691.7023,-34.0686C638.9516,-45.8273 567.6165,-61.7286 514.491,-73.5708"/>
-<polygon fill="#000000" stroke="#000000" points="513.455,-70.2158 504.4561,-75.8077 514.978,-77.0481 513.455,-70.2158"/>
+<path fill="none" stroke="#000000" d="M450.7878,-36.1686C450.7878,-43.869 450.7878,-53.0257 450.7878,-61.5834"/>
+<polygon fill="#000000" stroke="#000000" points="447.2879,-61.5867 450.7878,-71.5867 454.2879,-61.5868 447.2879,-61.5867"/>
+</g>
+<!-- Perl6::Documentable::Primary -->
+<g id="node5" class="node">
+<title>Perl6::Documentable::Primary</title>
+<g id="a_node5"><a xlink:href="/type/Perl6::Documentable::Primary" xlink:title="Perl6::Documentable::Primary">
+<ellipse fill="none" stroke="#000000" cx="773.7878" cy="-18" rx="147.5738" ry="18"/>
+<text text-anchor="middle" x="773.7878" y="-14.3" font-family="FreeSans" font-size="14.00" fill="#000000">Perl6::Documentable::Primary</text>
+</a>
+</g>
+</g>
+<!-- Perl6::Documentable::Primary&#45;&gt;Perl6::Documentable -->
+<g id="edge4" class="edge">
+<title>Perl6::Documentable::Primary&#45;&gt;Perl6::Documentable</title>
+<path fill="none" stroke="#000000" d="M702.9041,-33.8007C650.0202,-45.5891 577.9697,-61.6499 524.4338,-73.5836"/>
+<polygon fill="#000000" stroke="#000000" points="523.6606,-70.1699 514.6617,-75.7618 525.1837,-77.0022 523.6606,-70.1699"/>
 </g>
 </g>
 </svg>
