@@ -143,6 +143,16 @@ $(function(){
 ,
 { category: "class", value: "Perl6::Documentable::DocPage::Factory", url: "/Perl6-Documentable/type/Perl6::Documentable::DocPage::Factory" }
 ,
+{ category: "class", value: "Perl6::Documentable::Search", url: "/Perl6-Documentable/type/Perl6::Documentable::Search" }
+,
+{ category: "class", value: "Perl6::Documentable::Secondary", url: "/Perl6-Documentable/type/Perl6::Documentable::Secondary" }
+,
+{ category: "class", value: "Perl6::Documentable::Registry", url: "/Perl6-Documentable/type/Perl6::Documentable::Registry" }
+,
+{ category: "class", value: "Perl6::Documentable::Config", url: "/Perl6-Documentable/type/Perl6::Documentable::Config" }
+,
+{ category: "class", value: "X::Documentable::Config::InvalidConfig", url: "/Perl6-Documentable/type/X::Documentable::Config::InvalidConfig" }
+,
 { category: "class", value: "Perl6::Documentable::Index", url: "/Perl6-Documentable/type/Perl6::Documentable::Index" }
 ,
 { category: "class", value: "Perl6::Documentable::Primary", url: "/Perl6-Documentable/type/Perl6::Documentable::Primary" }
@@ -155,29 +165,19 @@ $(function(){
 ,
 { category: "class", value: "X::Documentable::TypeNotFound", url: "/Perl6-Documentable/type/X::Documentable::TypeNotFound" }
 ,
-{ category: "class", value: "Perl6::Documentable::Secondary", url: "/Perl6-Documentable/type/Perl6::Documentable::Secondary" }
-,
-{ category: "class", value: "Perl6::Documentable::Registry", url: "/Perl6-Documentable/type/Perl6::Documentable::Registry" }
-,
-{ category: "class", value: "Perl6::Documentable::Config", url: "/Perl6-Documentable/type/Perl6::Documentable::Config" }
-,
-{ category: "class", value: "X::Documentable::Config::InvalidConfig", url: "/Perl6-Documentable/type/X::Documentable::Config::InvalidConfig" }
-,
-{ category: "class", value: "Perl6::Documentable::Search", url: "/Perl6-Documentable/type/Perl6::Documentable::Search" }
-,
 { category: "grammar", value: "Perl6::Documentable::Heading::Grammar", url: "/Perl6-Documentable/type/Perl6::Documentable::Heading::Grammar" }
 ,
 { category: "class", value: "Perl6::Documentable::To::HTML::Wrapper", url: "/Perl6-Documentable/type/Perl6::Documentable::To::HTML::Wrapper" }
 ,
-{ category: "Language", value: "Command line interface", url: "/Perl6-Documentable/language/cli" }
-,
 { category: "Language", value: "TypeGraph representations", url: "/Perl6-Documentable/language/typegraph" }
 ,
-{ category: "Language", value: "Perl6 Highlighter", url: "/Perl6-Documentable/language/highlighting" }
+{ category: "Language", value: "Command line interface", url: "/Perl6-Documentable/language/cli" }
 ,
 { category: "Language", value: "Pod6 Format", url: "/Perl6-Documentable/language/document-format" }
 ,
 { category: "Language", value: "Configuration file", url: "/Perl6-Documentable/language/configuration-file" }
+,
+{ category: "Language", value: "Perl6 Highlighter", url: "/Perl6-Documentable/language/highlighting" }
 ,
 { category: "Routine", value: "BUILD", url: "/Perl6-Documentable/routine/BUILD" }
 ,
